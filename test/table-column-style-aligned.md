@@ -136,6 +136,20 @@ Text| Text |Text
 
 {MD060:-5} {MD060:-4} {MD060:-3} {MD060:-2}
 
+## Alignment Edge Cases
+
+| H | H |
+| - | - |
+| aa  | b | c |
+
+{MD056:-2} {MD060:-2}
+
+| A | B |
+| - | - |
+  | a | b |
+
+{MD060:-2}
+
 <!-- markdownlint-configure-file {
   "table-column-style": {
     "style": "aligned"
